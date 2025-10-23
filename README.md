@@ -204,35 +204,6 @@ Time: 2.45 seconds
 
 ---
 
-## 📝 Örnek Workflow
-
-### Senaryo: Unutulan Admin Şifresi Kurtarma
-
-**Adım 1: Hash Elde Etme**
-```
-# Linux shadow dosyasından
-sudo cat /etc/shadow | grep username
-```
-
-**Adım 2: Hash Tipini Belirleme**
-```
-# $6$ = SHA-512
-# $5$ = SHA-256
-# $1$ = MD5
-```
-
-**Adım 3: HSC ile Kırma**
-```
-python hsc.py -H <hash> -w rockyou.txt -t sha512 -v --threads 8
-```
-
-**Adım 4: Sonuç Analizi**
-```
-[SUCCESS] Password: MySecurePass123
-Time: 45.32 seconds
-```
-
----
 
 ## 🐛 Sorun Giderme
 
@@ -266,14 +237,3 @@ Time: 45.32 seconds
 Bu proje açık kaynak yazılımdır. Kendi sorumluluğunuzda kullanın.
 
 ---
-
-## 👨‍💻 Katkıda Bulunma
-
-Pull request'ler kabul edilmektedir. Büyük değişiklikler için önce issue açarak tartışın.
-
----
-
-
----
-
-**⚡ HSC ile güvenli hash analizi yapın!**
