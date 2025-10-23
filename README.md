@@ -2,7 +2,7 @@
 
 **Enterprise-Grade Cryptographic Hash Analysis & Recovery Tool**
 
-HSC, profesyonel siber güvenlik uzmanları, adli bilişim araştırmacıları ve sistem denetçileri için geliştirilmiş güçlü bir hash kırma aracıdır. 20+ hash algoritması desteği, çok iş parçacıklı işleme ve modern GUI arayüzü ile kapsamlı hash analizi sunar.
+HSC, bağımsız geliştirilmiş  bir hash kırma aracıdır. 20+ hash algoritması desteği, çok iş parçacıklı işleme ve modern GUI arayüzü ile kapsamlı hash analizi sunar.
 
 ---
 
@@ -50,7 +50,7 @@ pip install pyqt5
 
 ### Hızlı Kurulum
 ```
-git clone https://github.com/yourusername/hsc.git
+git clone https://github.com/FarmerDevv/hsc.git
 cd hsc
 pip install -r requirements.txt
 chmod +x hsc.py
