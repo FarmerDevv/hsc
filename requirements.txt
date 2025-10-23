@@ -1,0 +1,17 @@
+# HSC - Hash Security Cracker
+# Requirements File
+
+# Core Dependencies (Required for CLI)
+colorama
+rich
+
+# GUI Dependencies (Optional - for GUI mode)
+PyQt5
+
+# Standard Library (No installation needed)
+# - sys
+# - argparse
+# - hashlib
+# - threading
+# - time
+# - os
